@@ -7,7 +7,7 @@ pub extern "C" fn main(argc: i32, argv: *const *const u8) -> i32 {
     let _ = args.next().unwrap();
     if args.len() < 2 {
         cprintln!(
-            "Usage: cmpr <file_path> <file_path>\ncmpr by j-hc (github.com/j-hc)\nLicense GPL-3.0"
+            "Usage: cmpr <file_path> <file_path>\ncmpr by peternmuller (github.com/peternmuller)\nLicense GPL-3.0"
         );
     }
 

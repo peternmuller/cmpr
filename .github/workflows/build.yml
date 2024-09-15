@@ -18,10 +18,10 @@ jobs:
             target: x86_64-linux-android
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup NDK
         run: |
-          N="android-ndk-r26c"
+          N="android-ndk-r27b"
           wget -nv https://dl.google.com/android/repository/${N}-linux.zip
           unzip -qo ${N}-linux.zip
           chmod -R 777 ./${N}
