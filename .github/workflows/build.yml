@@ -3,7 +3,7 @@
 jobs:
   build:
     name: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         target: [armv7-linux-androideabi, aarch64-linux-android, i686-linux-android, x86_64-linux-android]
