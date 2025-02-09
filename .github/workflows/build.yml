@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Setup NDK
         run: |
-          N="android-ndk-r27c"
+          N="android-ndk-r28"
           wget -nv https://dl.google.com/android/repository/${N}-linux.zip
           unzip -qo ${N}-linux.zip
           chmod -R 777 ./${N}
